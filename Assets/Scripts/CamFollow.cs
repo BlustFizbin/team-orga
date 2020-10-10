@@ -19,7 +19,7 @@ public class CamFollow : MonoBehaviour
     }
 
     // Update is called once per frame
-    void Update()
+    void FixedUpdate()
     {
         Vector3 playerPos = new Vector3(player.position.x, player.position.y, -10);
         transform.position = Vector3.Lerp(transform.position, playerPos,Time.deltaTime*smooth);

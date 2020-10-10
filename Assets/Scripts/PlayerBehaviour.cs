@@ -13,7 +13,7 @@ public class PlayerBehaviour : MonoBehaviour
         rigid = GetComponent<Rigidbody2D>();
     }
 
-    void Update()
+    void FixedUpdate()
     {
         float inputX = Input.GetAxis("Horizontal");
 
