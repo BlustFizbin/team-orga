@@ -20,8 +20,8 @@ public class PlayerBehaviour : MonoBehaviour
         {
             if(inputX > 0)
             {
-                transform.localScale = new Vector3(1, 1, 1);
-            } else transform.localScale = new Vector3(-1, 1, 1);
+                transform.localScale = new Vector3(-1, 1, 1);
+            } else transform.localScale = new Vector3(1, 1, 1);
 
             Vector3 currentPos = transform.position;
             currentPos.x = currentPos.x + speedX * inputX;
