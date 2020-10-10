@@ -149,7 +149,6 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
   - {fileID: 886374081}
-  - {fileID: 729455261}
   - {fileID: 1360602107}
   - {fileID: 1443393372}
   - {fileID: 1630982845}
@@ -304,23 +303,44 @@ MonoBehaviour:
   m_CropFrameX: 1
   m_CropFrameY: 1
   m_StretchFill: 0
+--- !u!1 &525801181
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 525801182}
+  m_Layer: 0
+  m_Name: AwesomeMap
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &525801182
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 525801181}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 3.125, y: 3.125, z: 1}
+  m_Children:
+  - {fileID: 729455261}
+  m_Father: {fileID: 0}
+  m_RootOrder: 2
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1001 &600613107
 PrefabInstance:
   m_ObjectHideFlags: 0
   serializedVersion: 2
   m_Modification:
-    m_TransformParent: {fileID: 16100742}
+    m_TransformParent: {fileID: 525801182}
     m_Modifications:
-    - target: {fileID: -4501605174874388984, guid: 565d73271aecfb04f898f5ee09f7b75b,
-        type: 3}
-      propertyPath: m_CellSize.x
-      value: 0.32
-      objectReference: {fileID: 0}
-    - target: {fileID: -4501605174874388984, guid: 565d73271aecfb04f898f5ee09f7b75b,
-        type: 3}
-      propertyPath: m_CellSize.y
-      value: 0.32
-      objectReference: {fileID: 0}
     - target: {fileID: 696807077519450330, guid: 565d73271aecfb04f898f5ee09f7b75b,
         type: 3}
       propertyPath: m_Name
@@ -329,12 +349,12 @@ PrefabInstance:
     - target: {fileID: 3960341028618053574, guid: 565d73271aecfb04f898f5ee09f7b75b,
         type: 3}
       propertyPath: m_LocalPosition.x
-      value: -4.68
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 3960341028618053574, guid: 565d73271aecfb04f898f5ee09f7b75b,
         type: 3}
       propertyPath: m_LocalPosition.y
-      value: 5.48
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 3960341028618053574, guid: 565d73271aecfb04f898f5ee09f7b75b,
         type: 3}
@@ -364,7 +384,7 @@ PrefabInstance:
     - target: {fileID: 3960341028618053574, guid: 565d73271aecfb04f898f5ee09f7b75b,
         type: 3}
       propertyPath: m_RootOrder
-      value: 1
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 3960341028618053574, guid: 565d73271aecfb04f898f5ee09f7b75b,
         type: 3}
@@ -380,6 +400,16 @@ PrefabInstance:
         type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3960341028618053574, guid: 565d73271aecfb04f898f5ee09f7b75b,
+        type: 3}
+      propertyPath: m_LocalScale.x
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 3960341028618053574, guid: 565d73271aecfb04f898f5ee09f7b75b,
+        type: 3}
+      propertyPath: m_LocalScale.y
+      value: 1
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: -2695619058785784247, guid: 565d73271aecfb04f898f5ee09f7b75b,
@@ -507,7 +537,7 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 16100742}
-  m_RootOrder: 2
+  m_RootOrder: 1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1443393371
 GameObject:
@@ -537,7 +567,7 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 16100742}
-  m_RootOrder: 3
+  m_RootOrder: 2
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1630982844
 GameObject:
@@ -568,7 +598,7 @@ Transform:
   m_LocalScale: {x: 20, y: 20, z: 1}
   m_Children: []
   m_Father: {fileID: 16100742}
-  m_RootOrder: 4
+  m_RootOrder: 3
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!212 &1630982846
 SpriteRenderer:
