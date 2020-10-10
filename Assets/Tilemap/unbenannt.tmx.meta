@@ -1,5 +1,5 @@
 fileFormatVersion: 2
-guid: e7a1e37e69d48154bbf46697601e67e2
+guid: 565d73271aecfb04f898f5ee09f7b75b
 ScriptedImporter:
   internalIDToNameTable: []
   externalObjects: {}
@@ -9,19 +9,7 @@ ScriptedImporter:
   assetBundleVariant: 
   script: {fileID: 11500000, guid: 1fa25d03934ea624a82bf2fcee6f0873, type: 3}
   missingFiles: []
-  errors:
-  - Errors detected in tileset 'gvdfgdfgdfg.tsx'. Check the tileset inspector for
-    more details. Your map may be broken until these are fixed.
-  - Could not find tile 12. Make sure the tilesets were successfully imported.
-  - Could not find tile 1. Make sure the tilesets were successfully imported.
-  - Could not find tile 2. Make sure the tilesets were successfully imported.
-  - Could not find tile 3. Make sure the tilesets were successfully imported.
-  - Could not find tile 5. Make sure the tilesets were successfully imported.
-  - Could not find tile 6. Make sure the tilesets were successfully imported.
-  - Could not find tile 7. Make sure the tilesets were successfully imported.
-  - Could not find tile 9. Make sure the tilesets were successfully imported.
-  - Could not find tile 10. Make sure the tilesets were successfully imported.
-  - Could not find tile 11. Make sure the tilesets were successfully imported.
+  errors: []
   warnings: []
   missingSortingLayers: []
   missingLayers: []
