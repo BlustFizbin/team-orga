@@ -1,19 +1,19 @@
 fileFormatVersion: 2
-guid: 9b03a09094ce1d04ea22e9a8d7a43fcc
+guid: e64b513181d071b41ab483a9377bb936
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: 783396097847714460
-    second: plants_01_0
+      213: -330860246264830444
+    second: plants_01_small_0
   - first:
-      213: 6844919935177575894
-    second: plants_01_1
+      213: 587192912073918432
+    second: plants_01_small_1
   - first:
-      213: -2605654598022199065
-    second: plants_01_2
+      213: 2115961923682264662
+    second: plants_01_small_2
   - first:
-      213: 8945483331063825225
-    second: plants_01_3
+      213: -813693912425957995
+    second: plants_01_small_3
   externalObjects: {}
   serializedVersion: 11
   mipmaps:
@@ -59,7 +59,7 @@ TextureImporter:
   spritePivot: {x: 0.5, y: 0.5}
   spritePixelsToUnits: 100
   spriteBorder: {x: 0, y: 0, z: 0, w: 0}
-  spriteGenerateFallbackPhysicsShape: 1
+  spriteGenerateFallbackPhysicsShape: 0
   alphaUsage: 1
   alphaIsTransparency: 1
   spriteTessellationDetail: -1
@@ -99,7 +99,7 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: plants_01_0
+      name: plants_01_small_0
       rect:
         serializedVersion: 2
         x: 0
@@ -113,14 +113,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: c92e3a2b99e2fda00800000000000000
-      internalID: 783396097847714460
+      spriteID: 4162617eb5c886bf0800000000000000
+      internalID: -330860246264830444
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: plants_01_1
+      name: plants_01_small_1
       rect:
         serializedVersion: 2
         x: 32
@@ -134,14 +134,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 6ddcf344a6a0efe50800000000000000
-      internalID: 6844919935177575894
+      spriteID: 0e70bcaa7d0262800800000000000000
+      internalID: 587192912073918432
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: plants_01_2
+      name: plants_01_small_2
       rect:
         serializedVersion: 2
         x: 0
@@ -155,14 +155,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 7e8068dc2fad6dbd0800000000000000
-      internalID: -2605654598022199065
+      spriteID: 6566553a8286d5d10800000000000000
+      internalID: 2115961923682264662
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: plants_01_3
+      name: plants_01_small_3
       rect:
         serializedVersion: 2
         x: 32
@@ -176,8 +176,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 943cc34c1bdb42c70800000000000000
-      internalID: 8945483331063825225
+      spriteID: 595f3f1a2bd25b4f0800000000000000
+      internalID: -813693912425957995
       vertices: []
       indices: 
       edges: []
